@@ -1,0 +1,2 @@
+# React useEffect setTimeout Memory Leak
+This example demonstrates a common mistake when using the `useEffect` hook with `setTimeout` in React.  Without a cleanup function, the `setTimeout` continues to run even after the component unmounts, leading to potential memory leaks and unexpected behavior. The solution shows how to use cleanup function to prevent these issues. 
